@@ -42,5 +42,3 @@ class UserController extends Controller
         return Response::json($userData, 200, array(), JSON_PRETTY_PRINT);
     }
 }
-
-hi changes
