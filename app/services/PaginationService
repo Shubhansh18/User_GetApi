@@ -2,9 +2,13 @@
 
 namespace App\service;
 
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
+
 class PaginationService{
 
-    public function paginate()
+    public function paginate(User $user, Request $request)
     {
         //
     }
